@@ -26,3 +26,36 @@ a -= 6;
 b -= 15;
 c -= 1;
 
+//topic 22 & 23
+
+let a = 5;
+let b = 12;
+let c = 4.6;
+
+a *= 5;
+b *= 3;
+c *= 10;
+
+let a = 48;
+let b = 108;
+let c = 33;
+
+
+a /= 12;
+b /= 4;
+c /= 11;
+
+//topic 24
+
+const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; 
+console.log(myStr);
+
+//topic 25 : Quoting Strings with Single Quotes
+
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+console.log(myStr);
+
+//topic 26 : Escape Sequences in Strings
+
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+console.log(myStr);
