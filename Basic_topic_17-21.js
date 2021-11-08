@@ -59,3 +59,18 @@ console.log(myStr);
 
 const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
 console.log(myStr);
+
+//topic 27 : Concatenating Strings with Plus Operator
+
+const myStr = "This is the start." + " This is the end.";
+
+//topic 28 : Concatenating Strings with the Plus Equals Operator
+
+let myStr = 'This is the first sentence.';
+myStr += ' This is the second sentence.';
+
+//topic 29 : Constructing Strings with Variables
+
+const myName = "Anton ";
+const myStr = "My name is " + myName + 'and I am well!';
+
