@@ -119,3 +119,20 @@ const lastLetterOfLastName = lastName[lastName.length -1];
 
 const lastName = "Lovelace";
 const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
+
+//topic 37 : Word Blanks
+
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+const wordBlanks = "My " + myNoun + " is " + myAdjective + " and " + myVerb + " " + myAdverb + "."; // Change this line
+
+//topic 38 : Store Multiple Values in one Variable using JavaScript Arrays
+
+const myArray = ["peanut butter", 3 , "bread"];
+
+//topic 39 : Nest one Array within Another Array
+
+const myArray = [["Anton", 28] , ["Egor" , 20]];
