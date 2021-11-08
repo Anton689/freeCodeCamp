@@ -158,4 +158,20 @@ const myArray = [
  
  const myData = myArray[2][1];
 
- 
+ //topic 43 : Manipulate Arrays With push()
+
+const myArray = [["John", 23], ["cat", 2]];
+
+myArray.push(["dog" , 3]);
+
+//topic 44 : Manipulate Arrays With pop()
+
+const myArray = [["John", 23], ["cat", 2]];
+
+const removedFromMyArray = myArray.pop();
+
+//topic 45 : Manipulate Arrays With shift()
+
+const myArray = [["John", 23], ["dog", 3]];
+
+const removedFromMyArray = myArray.shift();
