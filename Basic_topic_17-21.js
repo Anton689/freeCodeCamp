@@ -96,3 +96,26 @@ const lastName = "Lovelace";
 
 firstLetterOfLastName = lastName[0]; // Change this line
 
+//topic 33 : Understand String Immutability
+
+
+let myStr = "Jello World";
+
+myStr = "Hello World"; 
+
+//topic 34 : Use Bracket Notation to Find the Nth Character in a String
+
+const lastName = "Lovelace";
+
+const thirdLetterOfLastName = lastName[2]; // Change this line
+
+//topic 35 : Use Bracket Notation to Find the Last Character in a String
+
+
+const lastName = "Lovelace";
+const lastLetterOfLastName = lastName[lastName.length -1]; 
+
+//topic 36 : Use Bracket Notation to Find the Nth-to-Last Character in a String
+
+const lastName = "Lovelace";
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this line
