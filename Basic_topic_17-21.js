@@ -74,3 +74,25 @@ myStr += ' This is the second sentence.';
 const myName = "Anton ";
 const myStr = "My name is " + myName + 'and I am well!';
 
+//topic 30 : Appending Variables to Strings
+
+const someAdjective = "awesome";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
+
+//topic 31 : Find the Length of a String
+
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+lastNameLength = lastName;
+
+lastNameLength = lastName.length;
+
+//topic 32 : Use Bracket Notation to Find the First Character in a String
+
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+firstLetterOfLastName = lastName[0]; // Change this line
+
