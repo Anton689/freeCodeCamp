@@ -136,3 +136,26 @@ const myArray = ["peanut butter", 3 , "bread"];
 //topic 39 : Nest one Array within Another Array
 
 const myArray = [["Anton", 28] , ["Egor" , 20]];
+
+//topic 40 : Access Array Data with Indexes
+
+const myArray = [50, 60, 70];
+const myData = myArray[0];
+
+//topic 41 : Modify Array Data With Indexes
+
+const myArray = [18, 64, 99];
+myArray[0] = 45;
+
+//topic 42: Access Multi-Dimensional Arrays With Indexes
+
+const myArray = [
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9],
+	[[10, 11, 12], 13, 14],
+ ];
+ 
+ const myData = myArray[2][1];
+
+ 
