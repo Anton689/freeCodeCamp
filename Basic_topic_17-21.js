@@ -175,3 +175,63 @@ const removedFromMyArray = myArray.pop();
 const myArray = [["John", 23], ["dog", 3]];
 
 const removedFromMyArray = myArray.shift();
+
+//topic Global vs. Local Scope in Functions
+
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+const outerWear = 'sweater';
+  return outerWear;
+}
+myOutfit();
+
+//topic Understanding Undefined Value returned from a Function
+
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+function addFive() {
+  sum = sum + 5;
+}
+
+addThree();
+addFive();
+
+// Assignment with a Returned Value
+
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+processed = processArg(7);
+
+
+//Stand in Line
+
+function nextInLine(arr, item) {
+	arr.push(item);
+ 	return arr.shift();
+	
+ }
+ 
+ const testArr = [1, 2, 3, 4, 5];
+
+ console.log("Before: " + JSON.stringify(testArr));
+ console.log(nextInLine(testArr, 6));
+ console.log("After: " + JSON.stringify(testArr));
+
+ //Use Conditional Logic with If Statements
+
+ function trueOrFalse(wasThatTrue) {
+	if(wasThatTrue) {
+	  return 'Yes, that was true';
+	}
+	return 'No, that was false'; 
+
+ }
