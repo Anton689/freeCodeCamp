@@ -57,3 +57,37 @@ function htmlColorNames(arr) {
  }
  
  console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+
+ // Find the Longest Word in a String
+
+ function findLongestWordLength(str) {
+	let wordsToArr = str.split(' ');
+	let longest = 0;
+ 
+	for (i= 0; i < wordsToArr.length; i++) {
+	  if (wordsToArr[i].length > longest) {
+		 longest = wordsToArr[i].length;  
+	  }
+	}
+	return longest; 
+ }
+ 
+ findLongestWordLength("The quick brown fox jumped over the lazy dog");
+
+//Return Largest Numbers in Arrays
+
+ function largestOfFour(arr) {
+	let numArray = [];
+ 
+	for (let i = 0; i < arr.length; i++) {
+	  let largest = arr[i][0];
+	  for (let j = 1; j < arr[i].length; j++){
+		 if (arr[i][j] > largest) {
+			largest = arr[i][j];
+		 }
+		 
+		}
+		numArray[i] = largest;
+	}
+  return numArray;
+ };
