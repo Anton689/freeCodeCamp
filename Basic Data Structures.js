@@ -91,3 +91,40 @@ function htmlColorNames(arr) {
 	}
   return numArray;
  };
+
+
+ //Copy an Array with the Spread Operator
+
+ function copyMachine(arr, num) {
+	let newArr = [];
+	while (num >= 1) {
+	  newArr.push([...arr]);
+	  num--;
+	}
+	return newArr;
+ }
+
+//Combine Arrays with the Spread Operator
+
+ function spreadOut() {
+	let fragment = ['to', 'code'];
+	let sentence = ['learning', ...fragment, 'is', 'fun']; // Change this line
+	return sentence;
+ }
+ 
+ console.log(spreadOut());
+
+ //Check For The Presence of an Element With indexOf()
+
+ function quickCheck(arr, elem) {
+	// change code below this line
+	if (arr.indexOf(elem) >= 0) {
+	  return true;
+	} else {
+	  return false;
+	}
+	// change code above this line
+ }
+ console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+
+ 
