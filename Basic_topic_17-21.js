@@ -235,4 +235,13 @@ function nextInLine(arr, item) {
 	return 'No, that was false'; 
 
  }
- // test2
+ // Comparison with the Equality Operator
+
+function testEqual(val) {
+	if (val == 12) { 
+	  return "Equal";
+	}
+	return "Not Equal";
+ }
+ 
+ testEqual(10);
