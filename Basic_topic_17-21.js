@@ -433,3 +433,16 @@ console.log(myConcat([1, 2], [3, 4, 5]));
 //Set Default Parameters for Your Functions
 const increment = (number, value = 1) => number + value;
 
+//Use the Rest Parameter with Function Parameters
+
+const sum = (...args) => {
+	//const args = [x, y, z];
+	return args.reduce((a, b) => a + b, 0);
+ }
+
+ //Use the Spread Operator to Evaluate Arrays In-Place
+
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+arr2 = [...arr1];
+console.log(arr2);
