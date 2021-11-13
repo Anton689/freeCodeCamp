@@ -642,4 +642,36 @@ switch (val) {
 }
   return answer;
 }
+
+//Multiple Identical Options in Switch Statements
+
+function sequentialSizes(val) {
+	let answer = "";
+	 switch(val) {
+		case 1:
+		case 2:
+		case 3:
+		 answer = 'Low';
+		 break;
+ 
+		 case 4:
+		 case 5:
+		 case 6:
+		 answer = 'Mid';
+			break;
+ 
+		 case 7:
+		 case 8:
+		 case 9:
+		 answer = 'High';
+			break;	  
+	 }
+	return answer;
+ }
+
+ //Match Single Character with Multiple Possibilities
+
+ let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let vowelRegex = /[aeiou]/gi; // Change this line
+let result = quoteSample.match(vowelRegex); // Change this line
  
