@@ -1072,7 +1072,19 @@ function sum(arr, n) {
 	return "No such contact";
  }
 
+ //Generate Random Fractions with JavaScript
+
+ function randomFraction() {
+	var result = 0;
  
+	while (result === 0){
+	  result = Math.random();
+	}
+ 
+	return result;
+ }
+
+
 
 
 
