@@ -1199,6 +1199,42 @@ function sum(arr, n) {
 		};
 		
 	 };
+
+	 //Use class Syntax to Define a Constructor Function
+
+	 class Vegetable {
+		constructor(name) {
+		  this.name = name;
+		}
+	 } 
+	 const carrot = new Vegetable("carrot");
+	 console.log(carrot.name);
+
+	 //Use getters and setters to Control Access to an Object
+
+	 class Thermostat {
+		constructor(fahrenheit) {
+		  this.fahrenheit = fahrenheit;
+		}
+		
+		get temperature() {
+		  return (5 / 9) * (this.fahrenheit - 32);
+		}
+		
+		set temperature(celsius) {
+		  this.fahrenheit = (celsius * 9.0) / 5 + 32;
+		}
+	}
+
+	//Create a Module Script
+
+	<html>
+  <body>
+    <!-- add your code below -->
+    <script type="module" src="index.js"></script>
+    <!-- add your code above -->
+  </body>
+</html>
 	
 
 
