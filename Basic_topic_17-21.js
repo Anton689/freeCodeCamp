@@ -1097,6 +1097,15 @@ function sum(arr, n) {
 	return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;;
  }
 
+ //Use the parseInt Function
+
+ function convertToInteger(str) {
+	let number = parseInt(str);
+	return number;
+ }
+ 
+ convertToInteger("56");
+
 
 
 
