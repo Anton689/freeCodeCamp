@@ -981,4 +981,12 @@ function phoneticLookup(val) {
  
  updateRecords(recordCollection, 5439, 'artist', 'ABBA');
  
+ //Iterate with JavaScript While Loops
+
+const myArray = [];
+let i = 5;
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}
 
