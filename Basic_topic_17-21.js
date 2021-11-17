@@ -885,5 +885,32 @@ function phoneticLookup(val) {
 	return obj.hasOwnProperty(checkProp) ? obj[checkProp] : "Not Found";
 	
  }
+
+ //Manipulating Complex Objects
+
+ const myMusic = [
+	{
+	  "artist": "Billy Joel",
+	  "title": "Piano Man",
+	  "release_year": 1973,
+	  "formats": [
+		 "CD",
+		 "8T",
+		 "LP"
+	  ],
+	  "gold": true
+	},
+	{
+	  "artist": "Mettalica",
+	  "title": "jar",
+	  "release_year": 1953,
+	  "formats": [
+		 "CD",
+		 "2T",
+		 "DVD"
+	  ]
+ }
+	
+ ];
  
 
